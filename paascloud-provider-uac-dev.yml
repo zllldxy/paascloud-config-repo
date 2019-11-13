@@ -5,7 +5,7 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
-    url: jdbc:mysql://192.168.0.103:3306/paascloud_uac?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://192.168.0.103:3306/paascloud_uac?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=UTC
 
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
