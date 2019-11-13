@@ -5,7 +5,7 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
-    url: jdbc:mysql://192.168.0.103:3306/paascloud_omc?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://192.168.0.103:3306/paascloud_omc?characterEncoding=UTF-8&useUnicode=true&useSSL=true&serverTimezone=UTC
 
 liquibase:
   change-log: classpath:liquibase/index.xml
