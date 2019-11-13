@@ -2,7 +2,7 @@ spring:
   cache:
     cache-names: tpc-cache
   datasource:
-    url: jdbc:mysql://192.168.0.103:3306/paascloud_tpc?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_tpc?characterEncoding=utf8&useSSL=false
 
 liquibase:
   change-log: classpath:liquibase/index.xml
