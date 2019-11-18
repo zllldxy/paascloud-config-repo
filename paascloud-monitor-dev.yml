@@ -12,7 +12,7 @@ spring:
         enabled: true
       notify:
         mail:
-          to: xxxxxxxx@xxx.xx
+          to: zllldxy@live.cn
           from: zllldxy@live.cn
       turbine:
         clusters: default
