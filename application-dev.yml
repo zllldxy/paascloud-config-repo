@@ -41,7 +41,7 @@ spring:
     host: smtp.live.com
     username: zllldxy@live.cn
     password: Zll@@Ldxy5##304
-    port: 465
+    port: 587
     protocol: smtp
     test-connection: false
     default-encoding: UTF-8
