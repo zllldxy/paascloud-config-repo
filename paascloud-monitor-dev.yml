@@ -12,7 +12,7 @@ spring:
         enabled: true
       notify:
         mail:
-          to: zllldxy@live.cn
+          to: 759865431@qq.com
           from: zllldxy@live.cn
       turbine:
         clusters: default
