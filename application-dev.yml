@@ -38,8 +38,8 @@ spring:
         login-username: admin
         login-password: admin
   mail:
-    host: smtp.live.com
-    username: zllldxy@live.cn
+    host: smtp.qq.com
+    username: 759865431@qq.com
     password: Zll@@Ldxy5##304
     port: 587
     protocol: smtp
