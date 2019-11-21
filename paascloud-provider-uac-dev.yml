@@ -48,6 +48,7 @@ paascloud:
       enable: true
       reliableMessageConsumer: false
       reliableMessageProducer: true
+      namesrvAddr: paascloud-mq-rocket:9876
       instanceName: paascloud-provider-uac
       consumerGroup: CID_UAC
       producerGroup: PID_UAC

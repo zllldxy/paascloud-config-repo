@@ -50,6 +50,7 @@ paascloud:
       enable: false
       reliableMessageConsumer: false
       reliableMessageProducer: false
+      namesrvAddr: paascloud-mq-rocket:9876
       instanceName: paascloud-provider-omc
       consumerGroup: CID_OMC
       producerGroup: PID_OMC
